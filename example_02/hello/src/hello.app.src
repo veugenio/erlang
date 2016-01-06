@@ -1,0 +1,9 @@
+%% -*- erlang -*-
+{application, hello,
+ [{description, "hello"},
+  {vsn, "0.1"},
+  {modules, []},
+  {registered, []},
+  {mod, {'hello_app', []}},
+  {env, []},
+  {applications, [kernel, stdlib, crypto]}]}.
